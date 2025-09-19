@@ -88,7 +88,7 @@ CONFIG_ZMK_IDLE_SLEEP_TIMEOUT=60000
 # ESSENTIAL CONFIGURATION (Required)
 # ========================================
 CONFIG_ZMK_STATUS_ADVERTISEMENT=y
-CONFIG_ZMK_STATUS_ADV_KEYBOARD_NAME="xoxo-ish zen"  # Display name
+CONFIG_ZMK_STATUS_ADV_KEYBOARD_NAME=" Xoxo.ish-Zen"  # Display name
 
 # Required for proper BLE functionality
 CONFIG_BT=y
