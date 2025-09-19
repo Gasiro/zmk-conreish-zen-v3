@@ -4,10 +4,16 @@ manifest:
       url-base: https://github.com/zmkfirmware
     # Additional modules containing boards/shields/custom code can be listed here as well
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
+    - name: prospector  # <<== prospector support
+      url-base: https://github.com/t-ogura  # <<== prospector support
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
+    - name: prospector-zmk-module  # <<== prospector support
+      remote: prospector  # <<== prospector support
+      revision: v1.1.1  # <<== prospector support
+      path: modules/prospector-zmk-module  # <<== prospector support
   self:
     path: config
