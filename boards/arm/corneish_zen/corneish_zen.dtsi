@@ -12,7 +12,7 @@
 #include "corneish_zen_layout.dtsi"
 
 / {
-    model = "Corne-ish Zen";
+    model = "Xoxo-ish Zen";
     compatible = "corneish_zen";
 
     chosen {
