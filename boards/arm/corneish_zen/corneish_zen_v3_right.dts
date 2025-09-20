@@ -13,7 +13,6 @@
     chosen {
         zephyr,display = &epd;
         zmk,battery = &vbatt;
-        zmk,physical-layout = &corneish_zen_layout;
     };
 
     kscan0: kscan {
