@@ -8,3 +8,8 @@ config BOARD_CORNEISH_ZEN_LEFT
 
 config BOARD_CORNEISH_ZEN_RIGHT
     bool
+
+config ZMK_STUDIO_SUPPORT
+    bool "Enable ZMK Studio Support"
+    help
+      This option enables support for ZMK Studio features
