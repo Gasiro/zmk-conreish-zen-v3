@@ -19,6 +19,9 @@ if BOARD_CORNEISH_ZEN_LEFT || BOARD_CORNEISH_ZEN_RIGHT
 config BOARD
     default "corneish_zen"
 
+config ZMK_STUDIO_SUPPORT
+    default y
+
 config ZMK_SPLIT
     default y
 
