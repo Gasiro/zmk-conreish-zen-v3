@@ -9,6 +9,8 @@
 #include <nordic/nrf52840_qiaa.dtsi>
 
 #include <dt-bindings/zmk/matrix_transform.h>
+#include "corneish_zen_layout.dtsi"  // 添加这一行
+
 
 / {
     model = "Corne-ish Zen";
