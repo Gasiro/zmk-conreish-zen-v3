@@ -19,12 +19,12 @@
 // |  ESC |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BKSP |
 // |  TAB |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
 // | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  |ENTER|
-//                    | GUI | SPC | SPC |   | SPC | SPC  | ALT |
+//                    | GUI |SPC 2 | SPC |   | SPC | SPC  | ALT |
             bindings = <
 &kp ESC   &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &kp BSPC
 &kp TAB &kp A &kp S &kp D &kp F &kp G   &kp H &kp J  &kp K     &kp L   &kp UP &kp ENTER
 &kp LSHFT &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp LEFT &kp DOWN &kp RIGHT &kp SLASH
-               &kp LGUI &lt 1 SPACE &kp SPACE   &kp SPACE &mo 2 &kp RALT
+               &kp LGUI &lt 1 SPACE &kp SPACE   &kp SPACE &lt 2 SPACE &kp RALT
             >;
         };
 
