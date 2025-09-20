@@ -79,8 +79,8 @@ CONFIG_ZMK_WIDGET_LAYER_STATUS=n
 CONFIG_ZMK_IDLE_SLEEP_TIMEOUT=60000
 
 #Enable ZMK studio
-#CONFIG_ZMK_STUDIO=y
-#CONFIG_ZMK_STUDIO_LOCKING=n
+CONFIG_ZMK_STUDIO=y
+CONFIG_ZMK_STUDIO_LOCKING=n
 
 
 # Prospector support <<== <<== <<== <<== <<== <<== <<== <<== <<== <<== <<== <<== <<== <<== <<== <<== <<== 
