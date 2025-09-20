@@ -6,11 +6,14 @@
 */
 
 #include "corneish_zen.dtsi"
+#include "corneish_zen_layout.dtsi"   /* ← 新增这行，提供 &corneish_zen_layout */
+
 
 /{
     chosen {
         zephyr,display = &epd;
         zmk,battery = &vbatt;
+        zmk,physical-layout = &corneish_zen_layout;  /* ← 新增。连字符，不是下划线 */
     };
 
     kscan0: kscan {
